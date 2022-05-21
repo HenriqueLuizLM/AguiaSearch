@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: px !important;
+
+}
+
+.menu-principal {
+    width: 100%;
+    background-image: linear-gradient(30deg, #dbddd7 350px, #cf436b 500px, #1f1828 690px);
+    height: 170px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    background-color: #1f1828;
+}
+
+.logo {
+    float: left;
+    position: relative;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 400px;
+
+}
+
+.redes-sociais ul li {
+    margin-left: 15px;
+    display: block;
+    float: right;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: left;
+    margin-left: 55px;
+    margin-top: 50px;
+}
+
+.header-2 {
+    background-color: #ffff;
+    width: 900px;
+    margin: 0 auto;
+    border-bottom: 0px solid #6419c5;
+
+
+}
+
+.menu-urls {
+    height: 80px;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 80px;
+    height: 62px;
+
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #da4a6e;
+}
+
+
+.menu ul li a:hover {
+    color: #da4a6e;
+}
+
+.menu ul li a {
+    color: #cacaca;
+    text-decoration: none;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'Koulen', Helvetica, sans-serif;
+}
+
+
+
+
+.menu {
+
+    width: 70%;
+    float: left;
+    margin-left: -0px;
+}
+
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+
+
+}
+
+.busca input {
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    margin-top: 20px;
+    padding: 12px;
+    width: 190px;
+    height: 36px;
+    border: 2px solid #cf436b;
+    background-color: #dbddd7;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+
+}
+
+.col-1 {
+    width: 100%;
+    float: left;
+    position: relative;
+
+}
+
+
+.lupa {
+    background-color: #6419c5;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border:none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    background-image: url(../img/ARROW\ E.png);
+    top: 35%;
+    left:14%
+}
+
+button.slick-next{
+        font-size: 0px;
+        border:none;
+        width: 25px;
+        height: 51px;
+        background-color: transparent;
+        position: absolute;
+        z-index:9;
+        background-image: url(../img/ARROW\ D.png);
+        top:35%;
+        right: 14%;
+}
+
